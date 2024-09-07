@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <!-- <link rel="stylesheet" href="zamzam.css"> -->
+    <link rel="stylesheet" href="../Css/zamzam.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body id="body" >
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+}
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+    /* background-color: black; */
+}
+#body{
+    overflow-x: hidden;
+}
+/* start nav css */
+#bob{
+    background-color: #5e503fae;
+    position: sticky; 
+    top: 0; 
+    z-index: 999;
+    padding: 15px 200px;
+}
+@media (max-width:1100px) {
+    #bob{
+        padding:15px 50px;
+    }
+}
+#container{
+    max-width: 900px;
+}
+#logo{
+    max-height: 40px;
+}
+
+#ull{
+    padding-left: 300px;
+}
+@media (max-width:990px ) {
+    #ull{
+        padding-left: 0px;
+    }
+    
+}
+#linked{
+    margin: 0px 10px;
+    font-size: x-large;
+}
+#in{
+    color: white;
+    font-size: smaller;
+    font-family: auto;
+    background: none;
+    outline: none;
+    border: none;
+}
+#in:hover{
+    color: #c6ac8f;
+}
+#bar{
+    background: #c6ac8f;
+    color: #5e503fae;;
+}
+
+/* end nav css */
+/* start home css */
+
+
+@keyframes transform-left {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#tuii{
+    color: white;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 1.40rem;
+    margin: 0 20px;
+    position: relative;
+    transform-origin: left;
+    transition: 1s;
+    transform: scaleX(1);
+    animation: transform-left 1 1s;
+}
+@keyframes transform-left {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+#home{
+    background: url(../imges/kko1.jpg) center center/cover ;
+    position: relative;
+    top: -100px;
+    /* overflow-y: hidden; */
+}
+#home::before{
+    position: absolute;
+    content: '';
+    background-color: #5e503fae;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#ph{
+    z-index: 1;
+    border-radius: 500px 500px 10px 10px;
+    box-shadow: -29px 29px 0px 0px #C6AC8F;
+    height: 100%;
+    width: 100%;
+    border: none;
+    max-width: 683px;
+    margin-top: 70px;
+    position: relative;
+    bottom: 22px;
+    animation: ph 1 1s ease-in-out;
+}
+@keyframes ph {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.1);
+        opacity: 0.5;
+    }
+}
+#bot{
+    padding:15px 35px ;
+    color:#5e503f;
+    background-color:#c6ac8f ;
+    border-style: solid;
+    border-color:#c6ac8f ;
+    font-family: auto;
+    border-radius: 50px;
+    font-size: medium;
+}
+#bot:hover{
+    background-color:#02010100 ;
+    color: white;
+    border-color: white;
+}
+#ui{
+    color: white;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 1.40rem;
+    margin: 0 20px;
+    position: relative;
+}
+#rob{
+    color: white;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 3em;
+    transform-origin: left;
+    transition: 1s;
+    transform: scaleX(1);
+    /* padding: 18px 0; */
+    animation: transform-top 1 1s;
+}
+@keyframes transform-top {
+    0%{
+        transform: translateY(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+#imggg{
+    width: 7%; 
+    border-radius: 50%; 
+    animation: transform-ri 1 1s;
+}
+@keyframes transform-ri {
+    0%{
+        transform: translatex(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatex(0);
+        opacity: 1;
+    }
+}
+#col{
+    padding: 10px 20px 0px 50px;
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: white;
+    animation: trnsform-scal 1 1s ;
+}
+@keyframes trnsform-scal{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+#bott{
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #c6ac8f00;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 50px;
+    font-size: medium;
+    transition: 0.5s;
+    animation: trnsform-pot 1 1s ;
+}
+@keyframes trnsform-pot{
+    0%{
+        transform: translatey(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0);
+        opacity: 1;
+    }
+}
+#bott:hover{
+    color:#5e503f;
+    background-color:#ffffff ;
+    border-style: solid;
+    border-color:#c6ac8f ;
+    transform: scale(1.1);
+}
+#mar{
+    margin-top: 250px; 
+    padding-left:60px ; 
+    margin-bottom: 50px;
+}
+@media (max-width:550px) {
+    #mar{padding: 0px;}
+}
+/* end home css */
+/* start umrah css */
+#nom{
+    background-color: #e7d9ca; 
+    border-radius: 30px 0 0 30px; 
+}
+#nemo{
+    padding: 0; 
+    border-radius: 0px 30px 30px 0px; 
+}
+@media (max-width:767px) {
+    #nom{ border-radius: 30px 30px 0 0px; };
+}
+#nemo{
+    padding: 0; 
+    border-radius: 0px 30px 30px 0px; 
+    width: 100%; 
+    height: 100%;
+}
+@media (max-width:767px) {
+    #nemo{border-radius: 0px 0px 30px 30px; }
+}
+#nem{
+    padding: 60px;
+}
+@media (max-width:758px) {
+    #nem{padding: 20px;}
+}
+#hho{
+    background: url(../imges/kko1.jpg) center center/cover;
+    position: relative;
+    border-radius: 30px;
+    padding: 25px;
+}
+#hho::before{
+    position: absolute;
+    content: '';
+    background-color: #5e503fc2;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+}
+#hhoo{
+    box-shadow: 6px 6px 0px 0px #C6AC8F;
+    border:1px solid #c6ac8f;
+    border-radius: 30px;
+    padding: 25px;
+}
+/* end umrah css */
+/* start special css */
+#var{
+    background: url(../imges/muslim.jpg) center center/cover fixed ;
+    position: relative;
+    padding-top: 100px;
+}
+#var::before{
+    position: absolute;
+    content: '';
+    background-color: #5e503fc2;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#shado{
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #9580678a;
+    box-shadow: -4px 4px 0px 0px #958067;
+    border-radius: 300px 300px 10px 10px;
+    text-align: center;
+}
+#uii{
+    color: white;
+    margin: 0 20px;
+}
+#bottt{
+    padding:15px 35px ;
+    color:white;
+    background-color:#5e503f;
+    border-style: solid;
+    border-color:#c6ac8f ;
+    font-family: auto;
+    border-radius: 50px;
+    font-size: medium;
+    box-shadow: none;
+    transition: 1s;
+}
+#bottt:hover{
+    background-color:#ffff ;
+    color: #958067;
+    border-color:#5e503f;
+    transform: scale(1.1);
+}
+#hov{
+    background-color: #c6ac8f; 
+    width: 100%; 
+    height: 600px; 
+    margin-top: -485px; 
+    position: relative;
+}
+@media (max-width:767px) {
+    #hov{height: 143rem;
+        margin-top: -139.7rem;}
+}
+/* end special css */
+/* start semplfay css */
+#gog{
+    margin-top: -40px;
+    width: 100%;
+    border-radius: 400px 400px 10px 10px;
+    box-shadow: -11px 11px 0px 0px #5E503F;
+}
+#hhho{
+    background: url(../imges/kko1.jpg) center center/cover;
+    position: relative;
+    border-radius: 30px;
+    padding: 15px;
+    width: 100%;
+}
+#hhho::before{
+    position: absolute;
+    content: '';
+    background-color: #5e503fc2;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+}
+#ass{
+    color: #ffff;
+    font-size: larger;
+    position: relative;
+    transition: 1s;
+}
+#ass:hover{
+    transform: scale(1.1);
+}
+#hhhoo{
+    box-shadow: 6px 6px 0px 0px #C6AC8F;
+    border:1px solid #c6ac8f;
+    border-radius: 30px;
+    padding: 25px;
+    padding: 15px;
+    width: 100%;
+}
+#bebm{
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 50%;
+    /* font-size: x-large; */
+}
+#uui{
+    color: white;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 1.20rem;
+    margin: 0 20px;
+    position: relative;
+}
+/* end semplfay css */
+/* start num css */
+
+/* end uum css */
+/* start choose css */
+#colm{
+    border: 1px solid #5e503f3b;
+    border-radius: 30px 30px 30px 30px;
+    margin: 20px 0;
+    padding: 50px 15px;
+}
+/* end choose css */
+/* start about css */
+#abo{
+    position: relative;
+    padding: 120px 0px ;
+
+}
+#aboo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    height: 478px;
+}
+#abo::before{
+    position: absolute;
+    content: '';
+    background-color: #5e503fb4;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+@media (max-width:777px) {
+    #aboo{
+        object-fit: none;
+    }
+}
+/* end about css */
+/* start contact css */
+#opo{
+    width: 100%;
+    height: 100%;
+    border-radius: 300px 300px 10px 10px;
+    box-shadow: -15px 15px 0px 0px #C6AC8F;
+}
+#opoo{
+    width: 100%;
+    border-radius: 10px 130px 10px 10px;
+    margin-top: 130px;
+    box-shadow: -15px 15px 0px 0px #C6AC8F;
+}
+#uuiii{
+    color: white;
+    font-family: Playfair Display;
+    font-size: 1.20rem;
+    font-weight: 600;
+    margin: 0 20px;
+    position: relative;
+}
+#inbt{
+    box-shadow: 2px 2px 0px 0px rgba(149, 128, 103, 0.5411764705882353);
+    border-radius: 30px;
+    border: 1px solid #9580678a;
+    background-color: #02010100;
+    color: #5e503f;
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    height: auto;
+}
+/* end contact css */
+/* start articl css */
+#sty{
+    transition: all .4s ease;
+    width: 100%;
+    height: auto;
+    border: none;
+    /* padding: 10px; */
+    border-radius: 30px;
+    position: relative;
+}
+#sty:hover{
+    box-shadow: 0px 0px 25px 2px #545454;
+    transform: rotate(2deg);
+    position: relative;
+}
+/* end articl css */
+#bebm{
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 50%;
+}
+#free{
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+#input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 10px;
+    color: #1d293e;
+    border-radius: 2px;
+    border: 0px;
+}
+#subs{
+    background: #525fe1;
+    border: 2px solid #525fe1;
+    color: #fff;
+    padding: 12px 88px ;
+}
+#subs:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: #525fe1;
+}
+#dod{
+    color: white;
+}
+
+#dotedtt{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: #aa9b8a;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 3px;
+    display: none;
+    font-size: xx-large;
+    font-family: initial;
+    outline: none;
+    z-index: 1;
+}
+::-webkit-scrollbar{ width:auto;  }
+::-webkit-scrollbar-track{ background-color: #5E503F; }
+::-webkit-scrollbar-thumb{ background-color: #e7d9ca; }
+
+/* حجم الاسكرول */
+/* لون خلفية الاسكرول*/
+/* لون الاسكرول */
+
+.reveal{
+    position: relative;
+    transform: translate3d(1px,1px,1px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active{
+    transform: translate3d(0px,0px,0px);
+    opacity: 1;
+}
+
+.reveal1{
+    position: relative;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.reveal1.active{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.reveal2{
+    position: relative;
+    transform: translatex(500px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal2.active{
+    transform: translatex(0px);
+    opacity: 1;
+}
+
+.reveal3{
+    position: relative;
+    transform: translatex(-500px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal3.active{
+    transform: translatex(0px);
+    opacity: 1;
+}
+
+.reveal4{
+    position: relative;
+    transform: translatey(100px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal4.active{
+    transform: translatey(0px);
+    opacity: 1;
+}
+
+.reveal5{
+    position: relative;
+    transform: rotate(90deg);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal5.active{
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bage about */
+/* start about */
+#poss{
+    position: relative;
+    background: url(../imges/bl6.jpg) center center/cover ;
+    width: 100%;
+    height: auto;
+    margin-top: -100px;
+}
+#poss::before{
+    position: absolute;
+    content: "";
+    background-color: #5e503fe6;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* end about */
+
+/* start team */
+#team{
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+    border-radius: 400px 400px 10px 10px;
+    background-color: #e7d9ca;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+}
+#tea{
+    width: 100%;
+    height: 355px;
+    border-radius: 300px 300px 10px 10px;
+    box-shadow: -6px 6px 0px 0px #C6AC8F;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+#tea:hover:before {
+    position: absolute;
+    content: "";
+    background-color: #5e503fc4;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#ttea{
+    text-align: center; 
+    color:#fff;
+    position: absolute;
+    top: 174px; 
+    left: 100px;
+    transform: translate(0px, 250px);
+}
+#team:hover #ttea{
+    transform: translate(0px, 0px);
+    transition: 0.5s;
+}
+
+#noti{
+    background: url(../imges/kko1.jpg) center center/cover fixed;
+    position: relative;
+    padding: 100px 0px;
+
+}
+#noti::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #e7d9cad6;
+}
+#plee{
+    background-color: #9580678a;
+    position: relative;
+    width: 100%;
+    padding: 0px 10px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    height: 64px;
+    margin-top: 14px;
+}
+/* @media (max-width:991px) {
+   #plee{
+    width: 19rem;
+   }
+} */
+#srrr{
+    position: absolute;
+    background-color: #c2ad95;
+    bottom: 51px;
+    right: 16px;
+    height: 50%;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    padding: 0 14px;
+    color: wheat;
+    font-size: 20px;
+}
+@media (max-width:1199px) {
+    #srrr{
+        height: 39%;
+        bottom: 85px;
+    }
+}
+@media (max-width:991px) {
+    #srrr{
+        height: 34%;
+        bottom: 110px;
+    }
+ }
+@media (max-width:768px) {
+    #srrr{
+        height: 82%;
+        bottom: 0px;
+    }   
+}
+/* end team */
+
+
+
+/* start single */
+#hou{
+    font-size: 55px;
+    color: #e7d9ca;
+    background-color: #5e503f;
+    padding: 17px 9px;
+    margin-right: 19px;
+    border-radius: 50px 50px 5px 5px;
+    height: 80px;
+}
+#morr{
+    background-color: #5e503f00; 
+    border: 3px solid white; 
+    padding: 9px 25px; 
+    border-radius: 28px; 
+    margin: 1rem 0;
+    transition: 0.5s;
+    color: #fff;
+}
+#morr:hover{
+    background-color: #fff;
+    border: 3px solid #5E503F;
+    transform: scale(1.1); 
+    color: #5E503F;
+}
+/* end single */
+.modal-backdrop.fade.show {
+    z-index: -1;
+}
+#nannna{
+    background-color: #5e503f;
+    color: #ffff;
+    border: 1px solid #9580678A;
+    border-radius: 30px;
+    box-shadow: 3px 3px 0px 0px #C6AC8F;
+    font-family: Playfair Display;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 14px 30px;
+    margin: 10px 0px;
+}
+#nnaa{
+    color: #ffff;
+    font-family: Playfair Display;
+    font-size: 0.6em;
+    font-weight: 700;
+    text-wrap: wrap;
+}
+#mamo{
+    background: bottom;
+    color: white;
+    padding: 14px 30px;
+    border: 2px solid #ffff;
+    border-radius: 50px;
+    margin: 30px 0;
+    transition: 0.5s;
+}
+#mamo:hover{
+    background-color: #fff;
+    border: 2px solid #5e503f;
+    transform: scale(1.1);
+    color: #5e503f;
+}
+#bobo{
+    text-align: center;
+    background-color: #C6AC8F;
+    height: 110%;
+    width: 89%;
+    padding: 88px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  </style>
+   <!-- start nav -->
+   <nav id="bob" class=" navbar navbar-expand-lg ">
+    <a class="navbar-brand" href="../html/zamzam.html"><img id="logo" src="../imges/Logo-Zamzam-01-1024x311.png" ></a>
+    <button style="background-color: wheat;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="ull" class="navbar-nav mr-auto">
+        <li  id="linked" class="nav-item active">
+          <a id="in" class="nav-link" href="zamzam.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li   id="linked" class="nav-item">
+          <div class="dropdown">
+            <button id="in" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+              About
+            </button>
+            <div style="  background-color: bisque;  border-radius: 20px;  border: none;  padding: 10px 10px;  font-family: ui-monospace; font-size: 1.5rem;" class="dropdown-menu">
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="about.html">About</a>
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="team.html">Team</a>
+            </div>
+          </div>
+        </li>
+        <li  id="linked"  class="nav-item">
+          <div class="dropdown">
+            <button id="in" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+              Package
+            </button>
+            <div style="  background-color: bisque;  border-radius: 20px;  border: none;  padding: 10px 10px;  font-family: ui-monospace; font-size: 1.5rem;" class="dropdown-menu">
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="package.html">Package</a>
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="single bakage.html">Package single</a>
+            </div>
+          </div>
+        </li>
+        <li  id="linked"  class="nav-item">
+          <div class="dropdown">
+            <button id="in" class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+              Page
+            </button>
+            <div style="  background-color: bisque;  border-radius: 20px;  border: none;  padding: 10px 10px;  font-family: ui-monospace; font-size: 1.5rem;" class="dropdown-menu">
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="booking.html">Booking</a>
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="fuqs.html">Fuqs</a>
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="blog.html">Blog</a>
+              <a style="background:none; color: #5e503f;" class="dropdown-item" href="404.html">404</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <a href="contact.html" ><button id="bot" class="btn btn-outline-success my-2 my-sm-0" type="submit">Contact us</button></a>
+      </form>
+    </div>
+  </nav>
+<!-- end nav -->
+ <!-- start about -->
+ <div id="poss"  >
+    <div style="padding: 200px 0px;" class="container">
+        <div style="display: flex; justify-content: center;" >
+            <img style="width: 30px; height: 50%; margin-top: 10px; border-radius: 30px;position: relative;" src="../imges/mo1.jpg" alt="">
+            <div>
+                <h3 id="ui"  style="color: #fff; padding-top: 10px;" >Contact Us</h3>
+            </div>
+        </div>
+        <h2 id="rob" style=" text-align: center; color: #fff;margin: 20px 0; " >Get In Touch </h2>
+        <p style="text-align: center; color: #fff;position: relative; margin: auto; " >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec<br> ullamcorper mattis, pulvinar dapibus leo.</p>
+    </div>
+</div>
+<!-- end about -->
+<!-- start phone -->
+<div style=" padding: 70px 0; background-color: #e7d9ca;" >
+    <div class="container">
+        <div style="margin: auto;" class="row">
+            <div style=" margin-top: 15px;" class="col-md-4">
+             <div>
+              <i style="z-index: 1; position: relative; border-radius: 40px 40px 5px 5px; margin: 0px 0 -27px 27px; font-size: 2rem; background-color: #5e503f; color: white; padding: 20px 20px;" class="fa-solid fa-phone"></i>
+              <div id="hhhoo" >
+                 <h3 id="uui" style=" font-size: 2rem; margin: 25px 0;  color:#5e503f; " >(+856) 76882557799</h3>
+                 <p style="position: relative; color:#5e503f;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+             </div>
+            </div>
+            <div style=" margin-top: 15px;" class="col-md-4">
+                <div>
+                    <i style="z-index: 1; position: relative; border-radius: 40px 40px 5px 5px; margin: 0px 0 -27px 27px; font-size: 2rem; background-color: #c6ac8f; color: #5e503f; padding: 20px 20px;" class="fas fa-envelope-open-text"></i>
+                 <div id="hhho" >
+                 <h3 id="uui" style=" font-size: 2rem; margin: 25px 0;" >  mail@zamzam.co</h3>
+                 <p style="position: relative; color: white;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                </div>
+              </div>
+            <div style=" margin-top: 15px;" class="col-md-4">
+             <div>
+                <i style="z-index: 1; position: relative; border-radius: 40px 40px 5px 5px; margin: 0px 0 -27px 27px; font-size: 2rem; background-color: #5e503f; color: white; padding: 20px 20px;" class="fas fa-map-marker-alt"></i>
+              <div id="hhhoo" >
+                 <h3 id="uui" style=" font-size: 2rem; margin: 25px 0;  color:#5e503f; " >London Eye, London</h3>
+                 <p style="position: relative; color:#5e503f;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+             </div>
+            </div>
+         </div>
+    </div>
+</div>
+<!-- end phone -->
+<!-- start contact -->
+<div class="reveal">
+    <div >
+      <div style="padding: 100px 0px;" class="container">
+        <div style="margin: auto;" class="row">
+          <div class="col-md-6">
+             <div>
+              <div style="margin: auto;" class="row">
+                <div class="col-md-12">
+                   <div>
+                    <img id="opo" src="../imges/cont1.jpg" alt="">
+                   </div>
+                </div>
+             </div>
+             </div>
+          </div>
+          <div style="padding-top: 130px;" class="col-md-6">
+            <div style="display: flex;" >
+              <img style="width: 7%; border-radius: 50%; " src="../imges/kko2.jpg" alt="">
+              <div style="padding: 6px 0;">
+                  <h3 id="ui" style="color: #5e503f;" > Why Choose Us</h3>
+              </div>
+          </div>
+          <h2 id="rob" style="color: #5e503f; font-size: 2.7em; margin: 15px 0px; " >Get In Touch With Us</h2>
+          <div style="margin-top: 10px;" >
+            <p id="uuiii" style="color: #5e503f;"  >Email</p>
+            <input id="inbt" type="email" placeholder="Email Addres">
+          </div>
+          <div style="margin-top: 10px;" >
+            <p id="uuiii" style="color: #5e503f;"  >Name</p>
+            <input id="inbt" type="text" placeholder="Your Name">
+          </div>
+          <div style="margin-top: 10px;" >
+            <p id="uuiii"  style="color: #5e503f;"  >Massage</p>
+            <input id="inbt" style="  margin-bottom: 15px;  padding-bottom: 85px;" type="text" placeholder="Massage">
+          </div>
+          <a style="margin: 8px 20px;" href="zamzam.html"><button id="bottt" style="padding: 15px 35px; margin-top: 10px; " class="btn btn-outline-success my-2 my-sm-0" type="submit">submet buttom</button></a>
+          <hr style="margin: 38px 0;" >
+          <div style="margin: auto;" class="row">
+           <div class="col-md-6">
+           <h3 style="font-family: Playfair Display; font-size: 1.5rem; font-weight: 700; color: #5e503f;" >Social Media :</h3>
+           </div>
+           <div class="col-md-2">
+           </div>
+           <div style=" margin-top: 15px;" class="col-md-4">
+             <a style="color: white; background:#5e503f;" id="bebm"  href="#" ><i  class="bi bi-facebook"></i></a>
+             <a style="color: white; background: #5e503f " id="bebm" href="#"  ><i  class="bi bi-twitter"></i></a>
+             <a style="color: white; background: #5e503f" id="bebm"  href="#" ><i  class="bi bi-youtube"></i></a>
+           </div>
+        </div> 
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact -->
+<!-- start Notified -->
+<div class="reveal">
+    <div id="noti" >
+        <div class="container">
+          <div style="margin: auto;display: flex; position: relative; background-color: #5e503fb7; padding: 50px 50px; border-radius: 50px;" class="row">
+            <div class="col-md-5">
+              <div>
+                <h3 style="color: white;  font-family: initial; " >Get Notified for Latest News</h3>
+                <p style="color: white;" >Get Notified for Latest News Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+             </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <div style="display: flex;" >
+                <input id="plee" type="text" placeholder="Type & Hit Enter... " >
+                <button id="srrr">Search</button>
+            </div>
+            </div>
+          </div>
+        </div>
+     </div>
+ </div>
+<!-- end Notified -->
+<!-- start fuqs -->
+<div class="reveal" >
+    <div style="padding: 75px 0;" class="container">
+      <div >
+        <div style="padding: 50px 0px;" class="container">
+            <div style="display: flex; justify-content: center;" >
+                <img style="width: 30px; height: 50%; margin-top: 10px; border-radius: 30px;position: relative;" src="../imges/ko2.jpg" alt="">
+                <div>
+                    <h3 id="ui"  style="color: #5e503f; padding-top: 10px;" > Our FAQs</h3>
+                </div>
+            </div>
+            <h2 id="rob" style=" text-align: center; color:#5e503f;margin: 20px 0; " >Frequently Asked Questions</h2>
+            <p style="text-align: center; color:#5e503f;position: relative; margin: auto; " >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec<br> ullamcorper mattis, pulvinar dapibus leo.</p>
+        </div>
+    </div>
+      <div style="margin: auto;" class="row">
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How to Change my Photo from Admin Dashboard?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How to Change my Password easily?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    How to Change my Subscription Plan using PayPal
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="accordion" id="accordionExample">
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOn" aria-expanded="true" aria-controls="collapseOn">
+                    How to Change my Photo from Admin Dashboard?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOn" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwoo" aria-expanded="false" aria-controls="collapseTwoo">
+                    How to Change my Password easily?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwoo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+            <div style="border: none;" class="card">
+              <div id="nannna" class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button id="nnaa" class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThreee" aria-expanded="false" aria-controls="collapseThreee">
+                    How to Change my Subscription Plan using PayPal
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThreee" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div style="padding: 20px 71px; color: #5e503f; " class="card-body">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+    </div>
+  </div>
+  <!-- end fuqs -->
+   <!-- start footr -->
+   <div class="reveal">
+    <div style="padding-bottom: 50px; padding-top: 80px; background: #5e503f;" >
+      <div class="container" >
+          <div style="margin: auto;" class="row">
+              <div class="col-md-4">
+                  <div style="margin-top: -25px;" >
+                      <img style="width: 75%;margin-bottom: 20px;" src="../imges/Logo-Zamzam-01-1024x311.png" alt="">
+                      <p style="color: #fff; margin-top: 10px; margin-bottom: 25px;" >  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      <div>
+                          <a style="color: white; background: #5e503f;" id="bebm"  href="#" ><i  class="bi bi-facebook"></i></a>
+                          <a style="color: white; background: #5e503f; " id="bebm" href="#"  ><i  class="bi bi-twitter"></i></a>
+                          <a style="color: white; background: #5e503f;" id="bebm"  href="#" ><i  class="bi bi-youtube"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div>
+                     <h4 id="free" ><b>Navigation</b></h4>
+                     <a href="zamzam.html" > <p id="dod" >Home</p></a>
+                     <a href="booking.html" > <p id="dod">Pages</p></a>
+                     <a href="about.html" > <p id="dod" > About Us</p></a>
+                     <a href="#" > <p id="dod">Services</p></a>
+                     <a href="404.html" > <p id="dod" > 404</p></a>
+                  </div>
+              </div>
+              <div class="col-md-2">
+                  <div>
+                      <h4 id="free" ><b> Quick Link</b></h4>
+                      <a href="contact.html" > <p id="dod" >Contact Us</p></a>
+                      <a href="fuqs.html" > <p id="dod"> FAQs</p></a>
+                      <a href="blog.html" > <p id="dod" > Blog</p></a>
+                      <a href="#" > <p id="dod"> Gallery</p></a>
+                      <a href="#" > <p id="dod" > Pricing</p></a>
+                   </div>
+              </div>
+              <div class="col-md-4">
+                  <div>
+                      <h4 id="free" ><b>Work Hours</b></h4>
+                      <h5 id="dod" style="padding: 40px 0px;" >  Mon - Fri : 7AM-5PM <br> Saturday 9AM-3PM</h5>
+                      <p id="dod">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   </div>
+              </div>
+           </div>
+      </div>
+   </div>
+  </div>
+  <!-- end footr -->
+   <button  id="dotedtt" >up</button>
+<script src="../j.s/mainn.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+</body>
+</html>
